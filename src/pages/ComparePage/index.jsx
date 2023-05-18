@@ -9,6 +9,11 @@ const ComparePage = () => {
 		(state) => state.comparing.comparingProductList
 	);
 
+	// const comparingList = localStorage.getItem("compare")
+	// 	? JSON.parse(localStorage.getItem("compare"))
+	// 	: storeComparingList;
+	// console.log(comparingList);
+
 	if (comparingList.length === 0)
 		return <h2 className={s.noCompare}>There is no products to compare</h2>;
 
@@ -24,7 +29,7 @@ const ComparePage = () => {
 				<p>Memory (RAM)</p>
 				<p>
 					Price Difference <br />
-					{/* Here is should be the difference price of two selected propucts */}
+					{Math.abs(comparingList[0].price - (comparingList[1]?.price || 0))}$
 				</p>
 			</div>
 			{comparingList.map((e) => (

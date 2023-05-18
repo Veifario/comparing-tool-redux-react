@@ -13,6 +13,7 @@ const MainPage = () => {
 	const dispatch = useDispatch();
 
 	const getProducts = () => {
+		dispatch(fetchProducts());
 	};
 
 	useEffect(() => {

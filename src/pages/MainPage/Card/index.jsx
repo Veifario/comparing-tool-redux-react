@@ -14,8 +14,21 @@ const Card = ({ data }) => {
 		switch (comparingList.length) {
 			case 0:
 			case 1:
+				if (comparingList[0]?.id === data.id) {
+					toast.warning("Выберите другой товар.", { theme: "dark" });
+					return;
+				}
+				toast.success("Успешно добавлено.", { theme: "dark" });
+				dispatch(addProductToCompare(card));
+				// localStorage.setItem(
+				// 	"compare",
+				// 	JSON.stringify([...JSON.parse(localStorage.getItem("compare")), card])
+				// );
 				break;
 			case 2:
+				toast.warning("Максимальное колличество достигнуто.", {
+					theme: "dark",
+				});
 				break;
 		}
 	};

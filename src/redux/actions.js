@@ -1,15 +1,31 @@
+import { getProductsList } from "../api/getRequest";
+
 //Products fetching
-
-import axios from "axios";
-
-const fetchUsers = () => async (dispatch) => {
+export const fetchProducts = () => async (dispatch) => {
 	try {
-		dispatch(request());
-		const { data } = await axios.get("");
-		dispatch(requestDone(data));
+		dispatch(fetchingProducts());
+		const data = await getProductsList();
+		dispatch(fetchedProducts(data));
 	} catch (error) {
-		dispatch(requestError(error.message));
+		dispatch(fetchingProductsError());
 	}
 };
 
+export const fetchingProducts = () => ({ type: "PRODUCTS_FETCHING" });
+export const fetchedProducts = (data) => ({
+	type: "PRODUCTS_FETCHED",
+	payload: data,
+});
+export const fetchingProductsError = () => ({
+	type: "PRODUCTS_FETCHING_ERROR",
+});
+
 //Products comparing
+export const addProductToCompare = (element) => ({
+	type: "PRODUCT_ADD_TO_COMPARE",
+	payload: element,
+});
+export const removeProductFromCompare = (filteredProducts) => ({
+	type: "PRODUCT_DELETE_FROM_COMPARE",
+	payload: filteredProducts,
+});

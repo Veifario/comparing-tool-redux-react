@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
+import { removeProductFromCompare } from "../../../redux/actions";
 import s from "./card.module.scss";
 
 const Card = ({ data, desc }) => {
@@ -9,7 +10,11 @@ const Card = ({ data, desc }) => {
 	);
 	const dispatch = useDispatch();
 
-	const removeFromComparing = () => {};
+	const removeFromComparing = () => {
+		const deletedData = comparingList.filter((e) => e.id !== data.id);
+		dispatch(removeProductFromCompare(deletedData));
+		toast.success("Успешно удалено", { theme: "dark" });
+	};
 
 	return (
 		<div className={s.root}>
