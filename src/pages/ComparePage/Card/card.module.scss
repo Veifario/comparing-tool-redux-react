@@ -1,0 +1,53 @@
+.root {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+
+	border-left: 1px solid var(--green);
+
+	background-color: var(--gray);
+
+	color: white;
+
+	img {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0 80px;
+
+		border-bottom: 1px solid var(--green);
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+
+		p {
+			height: 100px;
+			padding: 20px;
+
+			text-align: center;
+
+			&:nth-child(even) {
+				background-color: var(--dark);
+			}
+		}
+	}
+	button {
+		padding: 10px 0;
+
+		border: none;
+		outline: none;
+
+		cursor: pointer;
+
+		color: var(--black);
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+
+		transition: 0.2s;
+
+		&:hover {
+			background: var(--titleColor);
+		}
+	}
+}

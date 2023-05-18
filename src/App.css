@@ -1,0 +1,23 @@
+@import "react-toastify/dist/ReactToastify.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+	--green: #44d62c;
+	--greenHover: #34a823;
+	--gray: #222222;
+	--dark: #111111;
+	--black: #000000;
+	--titleColor: #9a9a9a;
+}
+
+body {
+	background-color: var(--black);
+	color: #fff;
+}

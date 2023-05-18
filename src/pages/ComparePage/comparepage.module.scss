@@ -1,0 +1,32 @@
+.noCompare {
+	margin-top: 30px;
+
+	color: var(--titleColor);
+	text-align: center;
+}
+
+.root {
+	display: flex;
+	justify-content: center;
+
+	padding: 20px;
+
+	.description {
+		margin-top: 240px;
+		display: flex;
+		flex-direction: column;
+
+		background-color: var(--gray);
+
+		p {
+			height: 100px;
+			padding: 20px;
+
+			text-align: center;
+
+			&:nth-child(even) {
+				background-color: var(--dark);
+			}
+		}
+	}
+}

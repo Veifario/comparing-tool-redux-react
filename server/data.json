@@ -1,0 +1,74 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "Razer Blade 14 - QHD 165Hz - GeForce RTX 3070 Ti - Quartz",
+			"description": {
+				"short": "14-inch Gaming Laptop with AMD Ryzen™ 6900HX",
+				"cpu": "AMD Ryzen™ 9 6900HX Processor (8-Cores /16-Threads, 20MB Cache, Up to 4.9 GHz max boost) with Radeon™ 680M Graphics",
+				"display": "14-inch QHD 165Hz, 2560 x 1440 FreeSync™ Premium, Anti-glare finish, Up to 100% DCI-P3, individually factory calibrated",
+				"gpu": "NVIDIA® GeForce RTX™ 3070 Ti (8GB GDDR6 VRAM)",
+				"storage": "1TB SSD (M.2 NVMe PCIe 4.0 x4)",
+				"memory": "16 GB DDR5-4800MHz (Fixed Onboard)"
+			},
+			"price": 1899,
+			"path": "https://assets3.razerzone.com/6HdPI17zeZs1ZTLbglXzYgWg1_g=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh5c%2Fh90%2F9453354057758%2Fblade-14-p8-quartz-fhd-qhd-2-500x500.png"
+		},
+		{
+			"id": 2,
+			"name": "Razer Blade 14 - Full HD 144Hz - GeForce RTX 3060 - Mercury",
+			"description": {
+				"short": "14-inch Gaming Laptop with AMD Ryzen™ 6900HX",
+				"cpu": "AMD Ryzen™ 9 6900HX Processor (8-Cores /16-Threads, 20MB Cache, Up to 4.9 GHz max boost) with Radeon™ 680M Graphics",
+				"display": "14-inch QHD 165Hz, 2560 x 1440 FreeSync™ Premium, Anti-glare finish, Up to 100% DCI-P3, individually factory calibrated",
+				"gpu": "NVIDIA® GeForce RTX™ 3070 Ti (8GB GDDR6 VRAM)",
+				"storage": "1TB SSD (M.2 NVMe PCIe 4.0 x4)",
+				"memory": "16 GB DDR5-4800MHz (Fixed Onboard)"
+			},
+			"price": 2299,
+			"path": "https://assets3.razerzone.com/0Ab864eqnrTXT7wnKgsRTZZCIvk=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh05%2Fh90%2F9453354024990%2Fblade-14-p8-mercury-fhd-qhd-2-500x500.png"
+		},
+		{
+			"id": 3,
+			"name": "Razer Blade 14 - QHD 165Hz - GeForce RTX 3080 Ti - Black",
+			"description": {
+				"short": "14-inch Gaming Laptop with AMD Ryzen™ 6900HX",
+				"cpu": "AMD Ryzen™ 9 6900HX Processor (8-Cores /16-Threads, 20MB Cache, Up to 4.9 GHz max boost) with Radeon™ 680M Graphics",
+				"display": "14-inch QHD 165Hz, 2560 x 1440 FreeSync™ Premium, Anti-glare finish, Up to 100% DCI-P3, individually factory calibrated",
+				"gpu": "NVIDIA® GeForce RTX™ 3080 Ti (16GB GDDR6 VRAM)",
+				"storage": "1TB SSD (M.2 NVMe PCIe 4.0 x4)",
+				"memory": "16 GB DDR5-4800MHz (Fixed Onboard)"
+			},
+			"price": 2999,
+			"path": "https://assets3.razerzone.com/YHF3HVs3KUYyyV2fvy5lsTFNFIg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhbd%2Fh06%2F9286402375710%2Fblade14-p8-fhd-500x500.png"
+		},
+		{
+			"id": 4,
+			"name": "Razer Blade 15 - Full HD 360Hz - GeForce RTX 3080 Ti - Black",
+			"description": {
+				"short": "Flagship 15-inch Laptop for Power and Portability",
+				"cpu": "1.8GHz 14-core Intel i7-12800H processor, Turbo Boost up to 4.8GHz, with 24MB of Cache",
+				"display": "15.6-inch FHD 360Hz, 100% sRGB, 2ms, individually factory calibrated",
+				"gpu": "NVIDIA® GeForce RTX™ 3080 Ti (16GB GDDR6 VRAM)",
+				"storage": "1TB SSD (M.2 NVMe PCIe 4.0 x4)",
+				"memory": "32 GB DDR5 4800MHz dual-channel memory (slotted)"
+			},
+			"price": 3299,
+			"path": "https://assets3.razerzone.com/UUODnE8z5w_1YhkDj3Gzf2wPwO8=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png"
+		},
+		{
+			"id": 5,
+			"name": "Razer Blade 17 - Full HD 360Hz - GeForce RTX 3070 Ti - Black",
+			"description": {
+				"short": "Desktop Replacement Laptop with 12th Gen Processors",
+				"cpu": "1.8GHz 14-core Intel i7-12800H processor, Turbo Boost up to 4.8GHz, with 24MB of Cache",
+				"display": "17.3-inch FHD 360Hz, 100% sRGB, 6mm bezels, individually factory calibrated, 3ms Response Rate",
+				"gpu": "NVIDIA® GeForce RTX™ 3070 Ti (8GB GDDR6 VRAM)",
+				"storage": "1TB PCIe Gen4 NVMe upgradeable to 4TB + Open M.2 Slot (Supports 2-sided NVMe Drive), upgradeable to 4TB SSD",
+				"memory": "16 GB DDR5 4800MHz dual-channel memory (slotted)"
+			},
+			"price": 2899,
+			"path": "https://assets3.razerzone.com/nu_cx2Px8X99ayBPPq2Z_1vldcM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh71%2Fh9a%2F9392074063902%2Fblade17-d8-fhd-2-500x500.png"
+		}
+	]
+}
